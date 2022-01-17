@@ -1,0 +1,42 @@
+body {
+    background: yellow;
+}
+
+.message {
+    padding-left: 20px;
+    color: white;
+}
+
+.time {
+    padding-left: 250px;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 55px;
+    left: 0;
+    font-size: 25px;
+    color: #ffffff8a;
+    margin: 0 15px 0 0;
+}
+
+.name {
+    padding-left: 20px;
+    color: purple;
+}
+
+.container {
+    margin-left: 50px;
+
+    top: 200px;
+    width: 300px;
+    height: 60px;
+    border: white solid 3px;
+    border-radius: 15px;
+
+    font-size: 16px;
+
+    background: #6495ED;
+}
