@@ -11,3 +11,8 @@
 .testSpanError {
     color: blue;
 }
+
+.superInput {
+    background: green;
+    border: black 1px solid;
+}
