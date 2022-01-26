@@ -1,3 +1,8 @@
+.input {
+    outline: none;
+    border: aqua solid 2px;
+}
+
 .superInput {
     color: lightblue;
     background: green;
