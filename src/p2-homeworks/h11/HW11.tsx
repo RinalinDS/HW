@@ -6,6 +6,13 @@ function HW11() {
     const [value1, setValue1] = useState(0)
     const [value2, setValue2] = useState(100)
 
+    const helper = (value: number[]) =>  {
+        setValue2(value[1])
+        setValue1(value[0])
+
+    }
+    console.log(value1, value2)
+
     return (
         <div>
             <hr/>
@@ -15,15 +22,14 @@ function HW11() {
             <div>
                 <span>{value1}</span>
                 <SuperRange
-                    // сделать так чтоб value1 изменялось
+                    onChangeRange={setValue1}
+                    value={value1}
                 />
             </div>
 
             <div>
                 <span>{value1}</span>
-                <SuperDoubleRange
-                    // сделать так чтоб value1 и value2 изменялось
-                />
+                <SuperDoubleRange value={[value1, value2]} step={5} disabled={value2 < value1} max={100} min={0} onChangeRange={helper}/>
                 <span>{value2}</span>
             </div>
 
