@@ -26,8 +26,7 @@ const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
 
     return (
         <>
-            <p>Игнат, если ты прочитаешь, я не понимаю, как можно задизейблить из material UI слайдер, он не поддается
-                мне.</p>
+
             <Box sx={{width: 300}}>
 
                 <Slider
